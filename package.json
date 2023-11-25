@@ -1,0 +1,31 @@
+{
+  "name": "54-agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con  Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/percybobbio/AgenciaViajesNode.git"
+  },
+  "type": "module",
+  "author": "Percy Bobbio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/percybobbio/AgenciaViajesNode/issues"
+  },
+  "homepage": "https://github.com/percybobbio/AgenciaViajesNode#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "pug": "^3.0.2",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
